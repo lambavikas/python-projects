@@ -1,0 +1,131 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration file (uncomment if necessary)
+# .env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment-specific files
+.env
+.env.*
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Python cache folders
+__pycache__/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+venv36/
+venv37/
+venv38/
+venv39/
+*.venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# pipenv
+Pipfile.lock
+Pipfile.snapshot
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# pytest
+pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+
+# pyinstaller
+__pycache__/
+dist/
+build/
+
+# django
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# pycharm
+.idea/
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Pyre type checker
+.pyre/
+
+# profiling
+profiling/
+
+# mypy
+.mypy_cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
