@@ -10,6 +10,7 @@ __pycache__/
 # IDE specific files
 .vscode/
 .idea/
+.code-workspace
 
 # Environment-specific files
 .env
