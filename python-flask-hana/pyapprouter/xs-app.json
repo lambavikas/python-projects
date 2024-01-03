@@ -1,0 +1,10 @@
+{
+    "routes": [
+      {
+        "source": "^/python-flask-hana/(.*)$",
+        "target": "$1",
+        "destination": "python-flask-hana"
+      }
+    ]
+  }
+  

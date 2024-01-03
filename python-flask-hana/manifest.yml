@@ -1,0 +1,27 @@
+---
+applications:
+- name: python-flask-hana
+  random-route: true
+  path: ./
+  memory: 128M
+  buildpacks: 
+  - python_buildpack
+  command: python server.py
+  services:
+  - pyhana
+  - pyuaa
+- name: pyapprouter
+  random-route: true
+  path: pyapprouter
+  memory: 128M
+  env:
+    destinations: >
+      [
+        {
+          "name":"python-flask-hana",
+          "url":"https://python-flask-hana-chatty-cat-gc.cfapps.us10.hana.ondemand.com/",
+          "forwardAuthToken": true
+        }
+      ]
+  services:
+  - pyuaa
